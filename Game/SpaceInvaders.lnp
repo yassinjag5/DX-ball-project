@@ -1,0 +1,22 @@
+--cpu Cortex-M4
+".\startup.o"
+".\nokia5110.o"
+".\random.o"
+".\spaceinvaders.o"
+".\texas.o"
+".\portf.o"
+".\timer2.o"
+".\shapes.o"
+".\screen_draw.o"
+".\checkmoving.o"
+".\adc.o"
+".\potentiometer.o"
+".\pwm.o"
+".\dht11.o"
+".\temp.o"
+".\uart.o"
+".\port.o"
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\SpaceInvaders.map" -o .\SpaceInvaders.axf
