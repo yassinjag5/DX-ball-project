@@ -119,7 +119,7 @@
             <Oh166RecLen>16</Oh166RecLen>
           </OPTHX>
           <Simulator>
-            <UseSimulator>1</UseSimulator>
+            <UseSimulator>0</UseSimulator>
             <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
             <RunToMain>1</RunToMain>
             <RestoreBreakpoints>1</RestoreBreakpoints>
@@ -131,7 +131,7 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Simulator>
           <Target>
-            <UseTarget>0</UseTarget>
+            <UseTarget>1</UseTarget>
             <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
             <RunToMain>1</RunToMain>
             <RestoreBreakpoints>1</RestoreBreakpoints>
@@ -144,7 +144,7 @@
             <UsePdscDebugDescription>0</UsePdscDebugDescription>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>2</TargetSelection>
+          <TargetSelection>3</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -516,16 +516,6 @@
               <FilePath>.\pwm.h</FilePath>
             </File>
             <File>
-              <FileName>dht11.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\dht11.c</FilePath>
-            </File>
-            <File>
-              <FileName>dht11.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\dht11.h</FilePath>
-            </File>
-            <File>
               <FileName>temp.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\temp.c</FilePath>
@@ -536,16 +526,6 @@
               <FilePath>.\temp.h</FilePath>
             </File>
             <File>
-              <FileName>UART.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\UART.c</FilePath>
-            </File>
-            <File>
-              <FileName>uart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\uart.h</FilePath>
-            </File>
-            <File>
               <FileName>port.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\port.c</FilePath>
@@ -554,6 +534,36 @@
               <FileName>port.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\port.h</FilePath>
+            </File>
+            <File>
+              <FileName>uart_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\uart_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\uart_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>dio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\dio.h</FilePath>
+            </File>
+            <File>
+              <FileName>dio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\dio.c</FilePath>
+            </File>
+            <File>
+              <FileName>ldr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ldr.c</FilePath>
+            </File>
+            <File>
+              <FileName>ldr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ldr.h</FilePath>
             </File>
           </Files>
         </Group>
